@@ -1,0 +1,47 @@
+html{
+    background-color: skyblue;
+}
+h1{
+    text-align: center;
+    color: lightslategrey;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    text-decoration: solid;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:10px;
+}
+img{
+    height: 200px;
+    width:250px;
+    border-radius: 18px;
+}
+.container div {
+  background-color: white;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* horizontal center */
+  justify-content: center; /* vertical center */
+  text-align: center;
+}
+h2{
+    color:black;
+    font-family: Libre Baskerville;
+}
+button{
+    display: inline-flex;
+}
+.pressed{
+  opacity: 0.5;
+  transform: scale(0.97);
+}
+
